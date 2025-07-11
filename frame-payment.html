@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      padding: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <label for="cc">Credit Card</label>
+  <input type="text" id="cc" data-test-id="input-cc" placeholder="XXXX-XXXX-XXXX-XXXX" />
+
+  <label for="expiry">Expiry Date</label>
+  <input type="text" id="expiry" data-test-id="input-expiry" placeholder="MM/YY" />
+
+  <label for="cvv">CVV</label>
+  <input type="password" id="cvv" data-test-id="input-cvv" placeholder="CVV" />
+</body>
+</html>

@@ -146,3 +146,13 @@
     alert('Form submitted successfully!');
     practiceForm.reset();
   });
+
+  // Open in new tab
+document.getElementById('open-tab').addEventListener('click', () => {
+  window.open('https://example.com', '_blank');
+});
+
+// Open in new window
+document.getElementById('open-window').addEventListener('click', () => {
+  window.open('https://example.com', '_blank', 'width=600,height=400');
+});

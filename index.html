@@ -26,6 +26,7 @@
   <button data-tab="date" role="tab" aria-selected="false" aria-controls="date-section" id="tab-date">Date Picker</button>
   <button data-tab="toast" role="tab" aria-selected="false" aria-controls="toast-section" id="tab-toast">Toast Notification</button>
   <button data-tab="frames" role="tab" aria-selected="false" aria-controls="frame-section" id="tab-frames">Frames</button>
+  <button data-tab="window">Window Actions</button>
 </nav>
 
 <main>
@@ -147,6 +148,14 @@
   <h3 style="margin-top:30px;">Nested Frame: Payment Info</h3>
   <iframe src="frame-outer.html" title="Outer Frame" width="100%" height="250" style="border:1px solid #ccc;" data-test-id="iframe-outer"></iframe>
 </section>
+
+<!-- WINDOW -->
+<section id="window-section">
+  <h2>Window Actions</h2>
+  <button id="open-tab" data-test-id="btn-open-tab">Open in New Tab</button>
+  <button id="open-window" data-test-id="btn-open-window" style="margin-left: 20px;">Open in New Window</button>
+</section>
+
 
 </main>
 
